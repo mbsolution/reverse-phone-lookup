@@ -1,0 +1,24 @@
+{
+    "phone_number": "+14155552671",
+    "country": "United States",
+    "location": "California",
+    "carrier": "Verizon",
+    "line_type": "mobile",
+    "spam_score": 20,
+    "caller_name": "John Doe",
+    "is_spam": false,
+    "social_profiles": [
+        {
+            "platform": "Facebook",
+            "username": "john.doe",
+            "profile_url": "https://facebook.com/john.doe",
+            "profile_image": "https://example.com/images/johndoe_fb.jpg"
+        },
+        {
+            "platform": "LinkedIn",
+            "username": "john-doe",
+            "profile_url": "https://linkedin.com/in/john-doe",
+            "profile_image": "https://example.com/images/johndoe_li.jpg"
+        }
+    ]
+}

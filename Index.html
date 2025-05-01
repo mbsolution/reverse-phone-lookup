@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reverse Phone Lookup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1>Reverse Phone Lookup (Demo)</h1>
+    <p>This is a placeholder for the Flutter web app build.</p>
+    <pre id="data"></pre>
+    <script>
+      fetch('mock_reverse_lookup.json')
+        .then(res => res.json())
+        .then(data => {
+          document.getElementById('data').textContent = JSON.stringify(data, null, 2);
+        });
+    </script>
+  </body>
+</html>
